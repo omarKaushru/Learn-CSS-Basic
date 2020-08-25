@@ -1,0 +1,160 @@
+body{
+    background: url("/image/background.jpg");
+    background-size: contain;
+    /* background size contain dile viewport er size shoman size kore nibe */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cl{
+    color: rgb(58, 4, 83);
+}
+/* css broder style in h3*/
+h3{
+    display: inline;
+    color: tomato;
+    border: 2px dotted blue;
+}
+
+.header a{
+    border: 3px solid blue;
+    color: blueviolet;
+    font-size: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+    display: inline-block;
+    text-decoration: none; /* removing under line from a tag */
+    margin: 50px 200px 75px;
+    /* padding is the distacne between content and border. */
+    padding: 15px;
+    /* addint shadow int text */
+    text-shadow: 4px 4px white;
+}
+
+.navbar{
+    border: 15px solid black;
+    width: 500px;
+    background: burlywood;
+    padding: 15px;
+    margin: auto;
+    /* max-width: 500px; browser e enough space na thakle eta choto kore dekhabe. */
+    /* outline: 10px solid green; */
+}
+.navbar p{
+    /* prtohom line k text indent die ektu vitore show korte parbo */
+    text-indent: 50px;
+    /* text gulo center e thakbe */
+    /* text-align: center; */
+    /* text ta box akare thakbe */
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* line space */
+    /* line-height: 1cm; */
+    /* letter spacing */
+    letter-spacing: 2px;
+    /* font-family: monospace; */
+    /* google font */
+    font-family: 'Shadows Into Light', cursive;
+
+}
+#innerLink{
+display: block;
+margin: auto;
+width: 160px;
+background-color: yellowgreen;
+padding: 25px;
+text-decoration: none;
+border-radius: 25px 25px;
+}
+#innerLink:link{
+    color: blue;
+    background-color: white;
+}
+#innerLink:visited{
+        color: green;
+        background-color: gold;
+        
+}
+#innerLink:hover{
+    color: grey;
+    background-color: rgb(228, 231, 221);
+    
+}
+#innerLink:checked{
+    color:red;
+    background-color: powderblue;
+    
+}
+.list{
+    width: 30%;
+    margin: auto;
+    background-color: palevioletred;
+    padding: 50px;
+    margin-top: 100px;
+    /* kono kichu hide korte chaile */
+    /* display: none; */
+    /* visibility hidden kore dile elemnet ta dekha jay na but er area ta theke jay. */
+    /* visibility: hidden; */
+}
+.list ol li{
+    color: solid rebeccapurple;
+    font-size: 30px;
+    padding: 10px;
+    background-color: plum;
+}
+.tableClass
+{
+    background-color: plum;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+.tablContainer{
+    background-color: saddlebrown;
+    padding: 80px;
+    color: seashell;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 25px 25px;
+    font-family: monospace;
+}
+.tablContainer table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tablContainer table th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: tomato;
+}
+.tablContainer table td{
+    border: 2px solid yellow;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: turquoise;
+    color: black;
+}
+/* .myDisplay{
+    padding: 25px;
+    border: 3px solid black;
+    display: inline;
+} */
+.myDisplay{
+    padding: 25px;
+    background-color: rgb(101, 28, 168);
+    position: sticky;
+    top: 0;
+}
+.floatClass{
+    border: 3px solid black;
+    overflow: auto;
+}
+.floatClass p{
+    text-align: center;
+}
+#myImage{
+    float: left;
+}
+/* CSS comment "ctrl+/" */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        *{
+            /* '*' die class likhle oi webpage er shob tag ei properties apply hoye jabe */
+            box-sizing: border-box;
+            /* ei properties apply korle height, widht, padding shob kichu border majhei rakhbe.
+            bar bar adjust korte hobe na */
+        }
+        .header{
+            border: 2px solid red;
+            padding: 10px;
+        }
+        .left{
+            border: 2px solid red;
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: justify;
+        }
+        .main{
+            border: 2px solid red;
+            float: right;
+            width: 70%;
+            padding: 10px;
+            text-align: justify;
+        }
+        @media only screen and(max-width: 600px){
+            body{
+                background-color: rgb(140, 194, 14);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>this is h1</h1>
+    </div>
+    <div class="left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, animi quibusdam facere doloribus in consequatur harum, asperiores nobis quia optio illo quas fuga, maxime voluptas. Pariatur, laborum a est sunt consequuntur quam, maxime eaque sint facere iusto officiis aliquid quas fugiat ratione. Doloribus sunt delectus eveniet officiis perspiciatis nisi.</p>
+    </div>
+    <div class="main">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda aut aliquam incidunt laborum inventore dignissimos odio animi cupiditate veritatis, amet officia repellendus architecto doloremque. At, quam, sit voluptatem perferendis fugit veniam facilis a id iure debitis laudantium impedit ut illo culpa ea recusandae deleniti neque vitae, consectetur error! Omnis repellat quia iste, quo tempora nobis mollitia aliquid exercitationem quod necessitatibus aperiam nostrum ipsum ut saepe? Quam omnis provident eaque quibusdam at, necessitatibus atque velit iste mollitia, commodi et distinctio neque rerum porro voluptate labore dolor alias sapiente quis quasi ex. Quo, commodi! Ut a sequi mollitia, facere sed atque obcaecati, dignissimos explicabo debitis esse numquam fuga vero quos. Illo ipsa accusamus at repellat mollitia expedita nisi quaerat sapiente ea dignissimos repellendus quo modi dolorem asperiores eos, architecto cum, nobis labore eum molestias commodi ad eaque quibusdam nesciunt. Laudantium, temporibus quasi iste, iure, tempora quod vero excepturi quos fuga odit debitis.</p>
+    </div>
+</body>
+</html>
